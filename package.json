@@ -1,0 +1,14 @@
+{
+  "name": "shopify-collection-mover",
+  "version": "1.0.0",
+  "description": "Moves products listed in a CSV to the top of a Shopify collection, one by one.",
+  "main": "move-products.js",
+  "type": "module",
+  "scripts": {
+    "start": "node move-products.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5"
+  }
+}
